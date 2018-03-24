@@ -8,8 +8,8 @@ https://minecraft.net/en-us/download/server
 ```
 git clone https://github.com/powellnathanj/docker-minecraft.git
 mv server.jar docker-minecraft
-mkdir world
 cd docker-minecraft
+mkdir world
 docker build -t np-minecraft .
 ```
 
